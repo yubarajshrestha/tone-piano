@@ -29,7 +29,7 @@ const synth = new Tone.Synth().toDestination();
         e.target.classList.remove("pressed");
     })
 
-    document.addEventListener("keydown", (e) => {
+    /* document.addEventListener("keydown", (e) => {
         if (e.code == 'KeyA') {
             synth.triggerAttack('C4', '8n');
             document.getElementById("c4").classList.add("pressed");
@@ -38,6 +38,6 @@ const synth = new Tone.Synth().toDestination();
 
     document.addEventListener("keyup", (_) => {
         // synth.triggerRelease();
-    });
+    }); */
 
 })();
